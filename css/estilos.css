@@ -1,0 +1,138 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image:url('../imgs/background_web_presentacion-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 5%;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+
+#main .boton_play {
+    width: 100%;
+    text-align: center;
+    /*position: relative;
+    top: 20%;
+    left: 45%;*/
+}
+
+#main {
+    margin-bottom: 30vh;
+}
+
+.boton_play img {
+    width: 80%;
+    max-width: 100px;
+}
+
+#input_texto {
+    width: 100%;
+    text-align: center;
+}
+
+#input_texto label {
+    display: block;
+}
+
+#input_texto input {
+    margin-left: 43.5%;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.rojo {
+    color: red !important;
+}
+
+.verde {
+    color: greenyellow !important;
+}
+
+#mensaje {
+    color: white;
+    text-align: center;
+}
+
+
+#intro_marca {
+    position: absolute;
+    bottom: 8vh;
+    left: 5vw;
+    z-index: 3;
+
+}
+
+#intro_marca p {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+}
+
+#intro_marca h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+#marca_ae{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    position: fixed;
+    bottom: 10vh;
+    text-align: center;
+}
+
+#marca_ae p{
+    margin: 0;
+    padding: 0;
+}
+
+#marca_ae img{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    max-width: 200px;
+}
+
+
+#overlay_marca_ae {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+
+    -webkit-mask-image: url('../imgs/isotipo_ae-01.svg');
+    mask-image: url('../imgs/isotipo_ae-01.svg');
+    mask-mode: alpha;
+    -webkit-mask-mode: alpha;
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center center;
+    -webkit-mask-position: center center;
+
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
