@@ -15,6 +15,8 @@ $('#texto').on('keyup', function () {
 
         $('main').addClass('hidden');
         $('#video').removeClass('hidden');
+        $('#video video')[0].play();
+
 
 
     } else {
